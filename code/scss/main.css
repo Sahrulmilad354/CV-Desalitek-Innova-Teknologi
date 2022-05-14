@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&family=Ubuntu:wght@400;700&display=swap");
+body {
+  padding-top: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-nav {
+  font-family: "Sriracha", cursive;
+}
+
+.custom-nav .navbar-brand img {
+  width: 80px;
+  height: 60px;
+}
+
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link {
+  color: #00507d;
+  font-weight: 700;
+  margin-left: 1em;
+  border-radius: 0.5em;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s color ease;
+  transition: 0.5s color ease;
+}
+
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link:hover {
+  color: #b3ff00;
+  border-radius: 0.5em;
+  border: 1px solid #00507d;
+  background-color: #00507d;
+}
+
+.carousel .row .col h5 {
+  margin-top: 30px;
+}
+
+.header a {
+  display: inline-block;
+  color: #e5e923;
+  background-color: #00507d;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: "Sriracha", cursive;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header a:hover {
+  color: #00507d;
+  border: 1px solid #00507d;
+  background-color: #6fc3ce;
+}
+
+.list-produk {
+  background-color: #0e64ce;
+}
+
+.list-produk h2 {
+  color: white;
+  font-family: "Sriracha", cursive;
+  margin-top: 3rem;
+}
+
+.list-produk p {
+  text-align: justify;
+}
+
+.mengapa-kami h2 {
+  color: #00507d;
+  font-family: "Sriracha", cursive;
+  margin-top: 3rem;
+}
+
+.produk-terbaik {
+  background-color: #0e64ce;
+  margin-bottom: 2rem;
+}
+
+.produk-terbaik h2 {
+  color: white;
+  font-family: "Sriracha", cursive;
+  margin-top: 3rem;
+}
+
+.produk-terbaik a {
+  display: inline-block;
+  color: #e5e923;
+  background-color: #00507d;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: "Sriracha", cursive;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.produk-terbaik a:hover {
+  color: #00507d;
+  border: 1px solid #00507d;
+  background-color: #6fc3ce;
+}
+
+.produk-terbaik .btn {
+  display: inline-block;
+  color: #e5e923;
+  background-color: #00507d;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: "Sriracha", cursive;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.produk-terbaik .btn:hover {
+  color: #00507d;
+  border: 1px solid #00507d;
+  background-color: #6fc3ce;
+}
+
+.testimoni h2 {
+  color: #00507d;
+  font-family: "Sriracha", cursive;
+  margin-top: 3rem;
+}
+
+.testimoni a {
+  display: inline-block;
+  color: #e5e923;
+  background-color: #00507d;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: "Sriracha", cursive;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.testimoni a:hover {
+  color: #00507d;
+  border: 1px solid #00507d;
+  background-color: #6fc3ce;
+}
+
+.testimoni .btn {
+  display: inline-block;
+  color: #e5e923;
+  background-color: #00507d;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: "Sriracha", cursive;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.testimoni .btn:hover {
+  color: #00507d;
+  border: 1px solid #00507d;
+  background-color: #6fc3ce;
+}
+
+.kontak {
+  height: 300px;
+  background-image: url(../../img/kontak/01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.kontak h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+}
+
+.kontak h6:hover {
+  color: #e5e923;
+}
+
+.kontak h6 a {
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+}
+
+.kontak h6 a:hover {
+  color: #e5e923;
+}
+
+.kontak a {
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+  text-decoration: none;
+}
+
+.kontak a:hover {
+  color: #e5e923;
+}
+
+.kontak a h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+}
+
+.kontak a h6:hover {
+  color: #e5e923;
+}
+
+.kontak ul li,
+.kontak ul a {
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+  list-style: none;
+  text-decoration: none;
+}
+
+.kontak ul li:hover,
+.kontak ul a:hover {
+  color: #e5e923;
+}
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+  .list-produk img {
+    width: 80%;
+  }
+  .custom-produk h2 {
+    font-size: 130%;
+    margin-top: 1rem;
+  }
+  .custom-produk a {
+    display: inline-block;
+    color: #6fc3ce;
+    background-color: #00507d;
+    border-radius: 0.5em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    font-size: 70%;
+    font-family: "Sriracha", cursive;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .custom-produk a:hover {
+    color: #00507d;
+    border: 1px solid #00507d;
+    background-color: #6fc3ce;
+  }
+  .custom-produk .modal img {
+    width: 50%;
+  }
+  .custom-produk .modal td,
+  .custom-produk .modal th {
+    font-size: 80%;
+  }
+  .kontak {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .kontak h6 {
+    font-family: "Ubuntu", sans-serif;
+    color: yellow;
+    font-size: 30%;
+  }
+  .kontak ul li {
+    font-family: "Ubuntu", sans-serif;
+    color: yellow;
+    list-style: none;
+    font-size: 30%;
+  }
+  .kontak iframe {
+    width: 100%;
+    height: 70%;
+  }
+  .footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer h6 {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .custom-produk .modal img {
+    width: 100%;
+  }
+  .custom-produk .modal td,
+  .custom-produk .modal th {
+    font-size: 80%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
